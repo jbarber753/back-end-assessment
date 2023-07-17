@@ -1,0 +1,13 @@
+form{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 5px;
+}
+
+input{
+    margin-left: 10px;
+}
+
+#mad-lib-button{
+    margin-bottom: 20px;
+}

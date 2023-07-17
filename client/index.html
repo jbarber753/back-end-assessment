@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="container">
+    <h1>Get a compliment, or a nugget of wisdom!</h1>
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortune-button">Get a wisdom nugget</button>
+    <h1>Lay out your goals!</h1>
+    <div id="goals">
+      <form id="goals-form">
+        <label for="goals-text">Add a goal:</label>
+        <input id="goals-text">
+        <input type="submit" id="goals-button">
+      </form>
+      <h3>Goals:</h3>
+      <div id="goals-container"></div>
+    </div>
+    <h1>Rock Paper Scissors!</h1>
+    <button class="rps" id="rock">Throw Rock</button>
+    <button class="rps" id="paper">Throw Paper</button>
+    <button class="rps" id="scissors">Throw Scissors</button>
+    <h1>Unwind and do a mad lib!</h1>
+    <form id="mad-lib-form">
+      <label for="person-1">Famous person</label>
+      <input class="mad-lib-input" id="person-1">
+      <label for="person-2">Famous person</label>
+      <input class="mad-lib-input" id="person-2">
+      <label for="noun-1">Noun</label>
+      <input class="mad-lib-input" id="noun-1">
+      <label for="noun-2">Noun</label>
+      <input class="mad-lib-input" id="noun-2">
+      <label for="noun-3">Noun</label>
+      <input class="mad-lib-input" id="noun-3">
+      <label for="noun-4">Noun</label>
+      <input class="mad-lib-input" id="noun-4">
+      <label for="verb-1">Verb ending in "-ing"</label>
+      <input class="mad-lib-input" id="verb-1">
+      <label for="noun-5">Noun</label>
+      <input class="mad-lib-input" id="noun-5">
+      <label for="noun-6">Noun</label>
+      <input class="mad-lib-input" id="noun-6">
+      <label for="noun-7">Noun</label>
+      <input class="mad-lib-input" id="noun-7">
+      <label for="verb-2">Verb ending in "-ing"</label>
+      <input class="mad-lib-input" id="verb-2">
+      <label for="noun-8">Noun</label>
+      <input class="mad-lib-input" id="noun-8">
+      <label for="noun-9">Noun</label>
+      <input class="mad-lib-input" id="noun-9">
+      <label for="adjective-1">Adjective</label>
+      <input class="mad-lib-input" id="adjective-1">
+      <label for="adjective-2">Adjective</label>
+      <input class="mad-lib-input" id="adjective-2">
+      <label for="place">Location</label>
+      <input class="mad-lib-input" id="place">
+      <input type="submit" id="mad-lib-button">
+    </form>
+    <div id="mad-lib-container"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
